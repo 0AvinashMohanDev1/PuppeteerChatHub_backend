@@ -5,8 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon src/app.ts",
-    "run":"tsc",
+    "dev":"nodemon",
+    "start": "node src/app.ts",
+    "build":"tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
